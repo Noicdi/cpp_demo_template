@@ -1,0 +1,35 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 21,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "MyEnv",
+            "hidden": true,
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {},
+            "environment": {
+                "VCPKG_ROOT": "./vcpkg"
+            }
+        },
+        {
+            "name": "MyDebug",
+            "inherits": [
+                "MyEnv",
+                "Base",
+                "Debug"
+            ]
+        },
+        {
+            "name": "MyRelease",
+            "inherits": [
+                "MyEnv",
+                "Base",
+                "Release"
+            ]
+        }
+    ]
+}

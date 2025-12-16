@@ -1,0 +1,4 @@
+{
+    "cmake.cmakePath": "cmake",
+    "clangd.path": "clangd"
+}

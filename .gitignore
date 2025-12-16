@@ -119,6 +119,7 @@ dkms.conf
 
 # CMake
 cmake-build-*/
+build/
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
@@ -207,4 +208,3 @@ fabric.properties
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/c,c++,clion,visualstudiocode
-

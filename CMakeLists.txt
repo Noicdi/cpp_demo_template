@@ -10,6 +10,7 @@ project(demo VERSION 0.0.1)
 add_executable(${PROJECT_NAME}
     src/main.cpp
     src/Logger.cpp
+    src/Utils.cpp
 )
 
 #target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/include)

@@ -21,7 +21,7 @@ void CopyToFixedBuffer(char (&dest)[N], const std::string& src) {
 }
 
 template <typename T>
-void printField(
+void PrintField(
     std::ostream& os, const char* eng, const char* chi, const T& value, int engWidth = 18, int chiWidth = 14) {
     os << "  " << std::left << std::setw(engWidth) << eng << std::left << std::setw(chiWidth) << chi << value << '\n';
 }

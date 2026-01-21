@@ -1,5 +1,5 @@
-#include "Logger.h"
-#include "Utils.h"
+#include "logger.h"
+#include "utils.h"
 
 int main() {
     logger::Init("./logs", "logs.log");
